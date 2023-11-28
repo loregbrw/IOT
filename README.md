@@ -1,2 +1,2 @@
 # iot
-iot projects at bosch.
+iiot projects at bosch.
