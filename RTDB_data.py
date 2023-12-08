@@ -21,7 +21,7 @@ proxy = {
 auth = requests.auth.HTTPProxyAuth("disrct", "ets@bosch207")
 
 def update_data():
-    dados = json.loads(get_request(url))
+    dados = json.loads(get_request(url, proxy, auth))
     mean_temp = dados["temperatura_media"]
     dev_temp = dados["desvio_padrao"]
     
